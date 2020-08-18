@@ -1,0 +1,64 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  padding: 3px;
+  background-color: rgb(44, 44, 44);
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+
+.container{
+  width: 1360px;
+  margin: 0 auto;
+}
+
+#main-bio{
+  float: left;
+  width: 68%;
+}
+
+#bio-image{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+#bio-name{
+  position: absolute;
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding-top: 145px;
+  text-align: center;
+  z-index: 2;
+}
+
+#figure {
+  float: left;
+  margin-right: 10px;
+}
+
+#contact-info {
+  float: right;
+  width: 30%;
+}
