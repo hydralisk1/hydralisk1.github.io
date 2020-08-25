@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="us-en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-white p-0">
+            <span class="bg-info nav_brand_size">
+                <a class="navbar-text text-white" href="index.html">Lattitude</a>
+            </span>
+            <ul class="nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle right_nav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link right_nav" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link right_nav" href="data.html">Data</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="main_container">
+            <div class="left_box">
+                <p class="left_title">Latitude vs. Max Temperature</p>
+                <hr>
+                <ul>
+                    <li>The closer to the equator it is, the hotter weather it is.</li>
+                    <li>The amount of sunshine received at the equator is more than the other places.</li>
+                </ul>
+                <img src="Resources/assets/images/Fig1.png" alt="Lat vs. Max Temp" class="center_img" />
+            </div>
+            <div class="right_box">
+                <p class="right_title">Visualizations</p>
+                <hr>
+                <div class="grid-container">
+                    <a href="max_temp.html" class="right_img"><img src="Resources/assets/images/Fig1.png" alt="Lat vs. Max Temp" class="right_img" /></a>
+                    <a href="humidity.html" class="right_img"><img src="Resources/assets/images/Fig2.png" alt="Lat vs Humidity" class="right_img" /></a>
+                    <a href="cloudiness.html" class="right_img"><img src="Resources/assets/images/Fig3.png" alt="Lat vs Cloudiness" class="right_img" /></a>
+                    <a href="wind_speed.html" class="right_img"><img src="Resources/assets/images/Fig4.png" alt="Lat vs Wind Speed" class="right_img" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <footer>&copy; Copyright Joonil Kim 2020</footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
